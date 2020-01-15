@@ -42,7 +42,7 @@ describe 'Song' do
       #file_name = 'Michael Jackson - Black or White - pop.mp3'
       #new_instance = Song.new_by_filename(file_name)
       #expect(new_instance.name).to eq('Black or White')
-    #end
+    end
 
     it 'associates new song instance with the artist from the filename' do
       Artist.class_variable_set("@@all",[])
